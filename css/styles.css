@@ -11,11 +11,19 @@ body {
   padding: 0;
   margin: 0;
   font-family: "League Spartan", "Arial", sans-serif;
-  font-size: ;
+  font-size: 13px;
   line-height: 1.5;
   background: lightcyan;
+  color: #7c8f8f;
 }
 
+*:focus {
+  outline: 3px dashed #5ca5a5;
+  outline-offset: 2px;
+}
+
+
+/* CONTAINER */
 .container {
   width: 100%;
   min-width: 1366px;
@@ -23,4 +31,104 @@ body {
   padding-right: 128px;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header-img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1366px;
+  height: 156px;
+}
+
+
+/* SITE-MAIN */
+.hero-card {
+  margin-top: 76px;
+}
+
+.hero-card-info {
+  margin: 0;
+}
+
+.hero-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #5ca5a5;
+  width: 1110px;
+  height: 152px;
+  background-color: #fff;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  border-radius: 5px;
+}
+
+.hero-card-logo-img {
+  margin-right: 24px;
+}
+
+.hero-card-info-top-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-family: "League Spartan", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5ca5a5;
+}
+
+.job-new {
+  display: block;
+  padding: 6px 8px;
+  font-family: "League Spartan", "Arial", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #5ca5a5;
+  color: #fff;
+}
+
+.hero-card-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hero-card-info-bottom-list {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hero-card-info-top-item:not(:last-child) {
+  padding: 0;
+  margin-right: 16px;
+}
+
+.hero-card-info-bottom-item:not(:last-child) {
+  padding: 0;
+  margin-right: 36px;
+}
+
+.hero-card-left-list {
+  display: flex;
+  font-family: "League Spartan", "Arial", sans-serif;
+  font-weight: 700;
+  list-style: none;
+}
+
+.hero-card-left-item:not(:last-child) {
+  margin-right: 6px;
+}
+
+.hero-card-left-link {
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 4px 8px;
+  background-color: lightcyan;
+  color: #5ca5a5;
 }
